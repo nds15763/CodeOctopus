@@ -1,0 +1,22 @@
+{
+  "name": "mcp-code-whisper",
+  "version": "0.1.0",
+  "description": "An intelligent code-doc-code automation system that enables natural language code debugging and automatic bug fixing through large language models.",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "apollo-server-express": "^3.12.1",
+    "vector-db": "^0.1.0",
+    "memory-cache": "^0.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.4"
+  }
+}
