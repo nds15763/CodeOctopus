@@ -1,4 +1,4 @@
-# McpCodeWhisper
+# CodeOctopus
 
 An intelligent code-doc-code automation system that enables natural language code debugging and automatic bug fixing through large language models.
 
